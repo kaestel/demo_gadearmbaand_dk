@@ -1,0 +1,96 @@
+
+/* BASIC CONTENT */
+/*.fixed #content .scene.front {width: 1200px; margin: 0 auto;}
+*/
+#content .scene.front {opacity: 1;}
+
+.scene.front h1 {opacity: 0;}
+.scene.front ul {width: 100%; font-size: 0;}
+.scene.front ul li {position: relative; display: inline-block; vertical-align: top; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.scene.front ul li.blank {}
+
+
+/* WIDTHS */
+/*
+.scene.front ul li.twenty {width: 20%;}
+.scene.front ul li.forty {width: 40%;}
+.scene.front ul li.sixty {width: 60%;}
+.scene.front ul li.eighty {width: 80%;}
+.scene.front ul li.ambassador {width: 100%;}
+*/
+
+
+/* INSTAGRAM */
+.scene.front ul li.instagram {}
+.scene.front ul li.instagram div.image {overflow: hidden; height: 100%; width: 100%; z-index: 10; position: absolute; top: 0; left: 0; box-sizing: border-box;}
+.scene.front ul li.instagram div.image img {width: 100%; height: 100%; z-index: 3; position: relative;}
+.scene.front ul li.instagram p {position: absolute; z-index: 4; bottom: 0px; left: 0px; width: 100%; text-align: center; padding: 5px 5px; color: #6eb951; font-size: 10px; font-weight: 800;}
+
+.scene.front ul li.instagram .videoplayer {overflow: hidden; height: 100%; width: 100%; z-index: 2; position: absolute; top: 0; left: 0; box-sizing: border-box;}
+.scene.front ul li.instagram .videoplayer video {position: relative; height: 102%; width: 102%; margin: -1%; z-index: 2; background: transparent;}
+
+
+/* TWEET */
+.scene.front ul li.tweet {}
+.scene.front ul li.tweet .card {padding:40px 50px; background-color: #6eb951; height: 100%; width: 100%; position: absolute; top: 0; left: 0; box-sizing: border-box;} 
+.scene.front ul li.tweet h3 {color: #19051a;}
+.scene.front ul li.tweet p {color: #ffffff; font-size: 22px; line-height: 1.363em;}
+.scene.front ul li.tweet p a {color: #19051a;}
+.scene.front ul li.tweet.float {float: right;}
+.scene.front ul li.tweet span.emoji {display: none;}
+
+
+
+/* ARTICLE */
+.scene.front ul li.article {}
+.scene.front ul li.article .card {padding: 40px 30px; background: #19051a; height: 100%; width: 100%; position: absolute; top: 0; left: 0; box-sizing: border-box;}
+.scene.front ul li.article.forty .card {padding: 40px 50px;}
+.scene.front ul li.article h2 {color: #ffffff; padding-bottom: 22px;}
+.scene.front ul li.article.forty h2 {font-size: 45px; line-height: 1.333em; padding-bottom: 45px;}
+.scene.front ul li.article h3 {color: #6eb951;}
+
+.scene.front ul li.article ul.actions {display: block;}
+.scene.front ul li.article ul.actions li {display: inline-block; vertical-align: top;}
+.scene.front ul li.article ul.actions li a {display: block; padding: 10px 20px 9px; border: 2px solid #6eb951; color: #ffffff; font-size: 14px; white-space: pre;
+	font-family: "DINPro", sans-serif; font-weight: 800;
+}
+
+
+
+/* AMBASSADOR */
+.scene.front ul li.ambassador {}
+.scene.front ul li.ambassador ul li.article p {color: #ffffff; padding-bottom: 44px; font-size: 22px; line-height: 1.363em;}
+
+.scene.front ul li.ambassador ul li.video {}
+.scene.front ul li.ambassador ul li.video div.image {overflow: hidden; height: 100%; width: 100%; z-index: 2; position: absolute; top: 0; left: 0; box-sizing: border-box;}
+.scene.front ul li.ambassador ul li.video div.image img {width: 102%; height: 102%; margin: -1%;}
+.scene.front ul li.ambassador ul li.video div.image div.play {width: 100%; height: 100%; position: absolute; top: 0; left: 0; cursor: pointer;
+	background: transparent url(/img/gx_play.png) no-repeat center center;
+}
+.scene.front ul li.ambassador ul li.video div.video {overflow: hidden; height: 100%; width: 100%; z-index: 1; position: absolute; top: 0; left: 0; box-sizing: border-box;
+	background: #19051a url(/img/gx_loader.gif) no-repeat center center;
+}
+
+.scene.front ul li.ambassador ul li.video .videoplayer {position: relative; height: 100%; z-index: 2; background: #19051a;}
+.scene.front ul li.ambassador ul li.video .videoplayer video {width: 102%; height: 102%; margin: -1%;}
+.scene.front ul li.ambassador ul li.video .videoplayer .controls {z-index: 3; position: absolute; top: 50%; left: 50%; margin-top: -30px; margin-left: -30px; width: 60px; height: 60px;}
+.scene.front ul li.ambassador ul li.video .videoplayer .controls .playpause {width: 100%; height: 100%; display: block;
+	background: transparent url(/img/gx_pause.png) no-repeat center center;
+}
+.scene.front ul li.ambassador ul li.video .videoplayer.paused .controls .playpause {
+	background-image: url(/img/gx_play.png)
+}
+
+
+.scene.front ul li.instagram .videoplayer .controls {z-index: 3; position: absolute; top: 0; right: 0; width: 60px; height: 60px;}
+.scene.front ul li.instagram .videoplayer .controls .volume {width: 100%; height: 100%; display: block;
+	background: transparent url(/img/gx_audio_on.png) no-repeat center center;
+}
+.scene.front ul li.instagram .videoplayer.muted .controls .volume {
+	background-image: url(/img/gx_audio_off.png)
+}
+

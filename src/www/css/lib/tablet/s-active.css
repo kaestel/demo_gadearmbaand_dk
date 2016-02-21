@@ -1,0 +1,23 @@
+.scene.event .events ul.items li.item p.location a {text-decoration: underline;}
+.scene.event .filters ul.days li:active {background-color: #70B857; color: #FFFFFF;}
+
+.scene.event .filters .filter:active {background-color: #70B857;}
+.scene.event .filters .filter ul.tag_list li:active {background-color: #180619; color: #FFFFFF;}
+
+.scene.event .events ul.items li.item:active {background-color: #180619; border-bottom: 2px solid #FFFFFF;}
+.scene.event .events ul.items li.item:active h3.host {color: #FFFFFF;}
+.scene.event .events ul.items li.item:active h2.name {color: #FFFFFF;}
+.scene.event .events ul.items li.item:active p.location {color: #FFFFFF;}
+.scene.event .events ul.items li.item:active ul.tags li {color: #FFFFFF;}
+
+.scene.event .events ul.items li.item .description ul.action li:active {background-color: #70B857;}
+.scene.event .events ul.items li.item .description ul.action li:active a {color: #FFFFFF;}
+
+.scene.buy ul.actions li:active {background-color: #70B857;}
+.scene.buy ul.actions li:active a {color: #FFFFFF;}
+
+
+#header .servicenavigation li.navigation:active a,
+#header .servicenavigation li.navigation.open:active a {color: #FFFFFF;}
+
+#header .servicenavigation li.navigation:active {background-color: #70B857;}

@@ -1,0 +1,108 @@
+.scene.event h1 {text-align: center;}
+
+.scene.event .filters ul.days {text-align: center; padding: 0 10px;}
+.scene.event .filters ul.days li {padding: 4px 20px 6px; margin: 0 2% 10px; width: 46%; border: 2px solid #70B857; display: inline-block; color: #70B857; cursor: pointer; font-weight: 800;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.scene.event .filters ul.days li:active {background-color: #70B857; color: #FFFFFF;}
+.scene.event .filters ul.days li.selected {background-color: #70B857; color: #FFFFFF;}
+
+.scene.event .filters h2 {width: 100%; text-align: center; padding-top: 20px;}
+.scene.event .filters .filter {display: none;}
+.scene.event .filters .filter h3 {font-size: 14px; padding: 0 0 20px;}
+.scene.event .filters .filter ul.tag_list {width: 100%; text-align: center;}
+.scene.event .filters .filter ul.tag_list li {padding: 4px 20px 6px; margin: 0 2%; width: 45%; border: 2px solid #70B857; display: inline-block; color: #70B857; cursor: pointer; font-weight: 800;}
+.scene.event .filters .filter ul.tag_list li:active {background-color: #70B857; color: #FFFFFF;}
+.scene.event .filters .filter ul.tag_list li.selected {background-color: #70B857; color: #FFFFFF;}
+.scene.event .filters .filter ul.tag_list li.unavailable {color: #FFFFFF; border: 2px solid gray; color: gray; background-color: #FFFFFF;}
+
+.scene.event .filters .filter .search {}
+.scene.event .filters .filter .search h3 {width: 100%; text-align: center; font-size: 14px; padding: 30px 0 20px;}
+.scene.event .filters .filter .search fieldset {}
+.scene.event .filters .filter .search fieldset .field {}
+.scene.event .filters .filter .search fieldset .field input {background-color: transparent; border: 2px solid #70B857; width: 230px; padding: 4px 20px 6px; font-weight: 800; color: #70B857;}
+
+.scene.event .events ul.legend {padding: 50px 0px 0; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.scene.event .events ul.legend li {width: 50%; display: inline-block; border-bottom: 2px solid #180619; padding-bottom: 10px; color: #70B857; font-weight: 600;}
+.scene.event .events ul.legend li.location,
+.scene.event .events ul.legend li.tags {display: none;}
+
+.scene.event .events ul.legend li {padding-left: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.scene.event .events ul.items {padding: 0 0px 100px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.scene.event .events ul.items li.item {width: 100%; font-size: 0; border-bottom: 2px solid #180619; overflow: hidden; cursor: pointer;}
+.scene.event .events ul.items li.item h3.host {display: inline-block; vertical-align: top; width: 50%; font-size: 14px; font-weight: 800; line-height: 1em; padding: 12px 0 0 10px; white-space: nowrap; overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-overflow: ellipsis;
+}
+.scene.event .events ul.items li.item h2.name {display: inline-block; vertical-align: top; width: 50%; font-size: 14px; font-weight: 800; line-height: 1em; padding: 12px 0 0 10px; white-space: nowrap; overflow: hidden;
+	font-family: "DINPro", Verdana, Arial, sans-serif;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-overflow: ellipsis;
+}
+.scene.event .events ul.items li.item p.location {display: inline-block; vertical-align: top; width: 50%; font-size: 14px; padding: 0 0 15px; font-weight: 800; line-height: 1em; white-space: nowrap; overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-overflow: ellipsis;
+}
+.scene.event .events ul.items li.item p.location a {text-decoration: underline;}
+
+.scene.event .events ul.items li.item ul.tags {padding: 10px 0;}
+.scene.event .events ul.items li.item ul.tags li {display: inline-block; font-weight: 600; padding-right: 6px;}
+.scene.event .events ul.items li.item ul.tags li:after {content: ","}
+.scene.event .events ul.items li.item ul.tags li:last-child:after {content: ""}
+.scene.event .events ul.items li.item .description {width: 100%; margin: 15px 0 0 0;}
+.scene.event .events ul.items li.item .description .media {display: inline-block; width: 25%; padding: 10px 60px 40px 15px; vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: none;
+}
+.scene.event .events ul.items li.item .description .media img {width: 100%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.scene.event .events ul.items li.item .description .text {display: block; padding: 10px 10px; vertical-align: top;}
+.scene.event .events ul.items li.item .description .text p {color: #FFFFFF;}
+.scene.event .events ul.items li.item .description .text ul.action {margin: 20px 0 20px;}
+.scene.event .events ul.items li.item .description .text ul.action li {padding: 4px 20px 6px; border: 2px solid #70B857; display: inline-block;}
+.scene.event .events ul.items li.item .description .text ul.action li a {color: #FFFFFF; font-weight: 800;}
+
+.scene.event .events ul.items li.item .description ul.action li:active {background-color: #70B857;}
+.scene.event .events ul.items li.item .description ul.action li:active a {color: #FFFFFF;}
+
+.scene.event .events ul.items li.item.selected {background-color: #180619; border-bottom: 2px solid #FFFFFF;}
+.scene.event .events ul.items li.item.selected h3.host {color: #FFFFFF;}
+.scene.event .events ul.items li.item.selected h2.name {color: #FFFFFF;}
+.scene.event .events ul.items li.item.selected p.location {color: #FFFFFF;}
+.scene.event .events ul.items li.item.selected ul.tags {margin-bottom: 30px;}
+.scene.event .events ul.items li.item.selected ul.tags li {color: #FFFFFF;}
+
+.scene.event .events ul.items li.item:active {background-color: #180619; border-bottom: 2px solid #FFFFFF;}
+.scene.event .events ul.items li.item:active h3.host {color: #FFFFFF;}
+.scene.event .events ul.items li.item:active h2.name {color: #FFFFFF;}
+.scene.event .events ul.items li.item:active p.location {color: #FFFFFF;}
+.scene.event .events ul.items li.item:active ul.tags li {color: #FFFFFF;}
+
+
+

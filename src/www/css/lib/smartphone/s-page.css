@@ -1,0 +1,68 @@
+* {font-family: "DINPro", Verdana, Arial, sans-serif; color: #2D2D2D; font-weight: 400;
+	-webkit-text-size-adjust: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+html {min-height: 100%;}
+body {background: #ffffff; margin: 0; overflow-y: scroll; overflow-x: hidden;}
+
+
+/* BASE */
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dd, dt {padding: 0; margin: 0;}
+h1, h2, h3, h4, h5, h6, p, li, dd, dt, span, a {line-height: 1em; font-weight: normal;}
+
+ul {list-style: none;}
+a {text-decoration: none; cursor: pointer;}
+
+img {border: 0; display: block;}
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0; font-weight: normal;}
+fieldset {border: none;}
+input, select, textarea {font-size: 14px; color: #333333;}
+input, textarea {outline: none;}
+
+
+a, span {font-size: inherit; font-family: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; color: inherit; text-transform: inherit;}
+em, strong {font-size: inherit; font-family: inherit; line-height: inherit; color: inherit; text-transform: inherit;}
+
+
+h1 {font-size: 30px; line-height: 1.3em; padding: 25px 0 45px; 
+	font-family: "Flood", Verdana, Arial, sans-serif
+}
+h2 {font-size: 22px; line-height: 1.363em; font-weight: 800;
+	font-family: "Flood", Verdana, Arial, sans-serif;
+}
+h3 {font-size: 14px; line-height: 2.143em; font-weight: 800;
+	font-family: "DINPro", Verdana, Arial, sans-serif;
+}
+h4 {font-size: 14px; line-height: 1em;}
+
+
+p {font-size: 14px; line-height: 1.38em;} 
+
+
+ul,
+ol {font-size: 0;}
+li {font-size: 14px; line-height: 1.25em;}
+
+
+#page {position: relative; min-height: 100%;}
+
+#intro {position: fixed; z-index: 15; width: 100%; height: 100%; background: rgba(0,0,0,1); top: 0; left: 0;}
+#page #content {opacity: 0; position: relative; z-index: 10;}
+#page .logo {opacity: 0;}
+#page #header {opacity: 0;}
+
+#page div.logo {width: 40px; height: 40px; position: fixed; top: 22px; left: 15px; z-index: 10;
+	background: transparent url(/img/logo.png) no-repeat center center;
+	background-size: 100% auto;
+}
+
+#intro {position: fixed; z-index: 15; width: 100%; height: 100%; background: rgba(0,0,0,1); top: 0; left: 0; opacity: 0;
+	background: transparent url(/img/bg_intro.jpg) no-repeat left center;
+	background-size: cover;
+}
+#intro .intro_logo {height: 100%; background-position: center center; background-repeat: no-repeat; background-size: 150px auto;
+	background-image: url(/img/logo_intro.png);
+}
+
+#content .scene {opacity: 0; padding: 60px 0 0;}

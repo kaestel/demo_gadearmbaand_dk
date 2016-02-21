@@ -1,0 +1,13 @@
+.scene.buy {width: 100%; background: #19051a;}
+
+.scene.buy h1 {text-align: center; color: #FFFFFF;}
+
+.scene.buy h2 {color: #ffffff; font-size: 40px; line-height: 1.286em; font-weight: 800; text-align: center; padding: 0 20px 40px;}
+.scene.buy h2 br {display: none;}
+.scene.buy h3 {color: #ffffff; text-align: center; font-size: 30px;
+	font-family: "Flood", Verdana, Arial, sans-serif;
+}
+.scene.buy .actions {text-align: center; padding: 0 0 40px;}
+
+.scene.buy .actions li a {border: 2px solid #6eb951; color: #ffffff; display: block; font-family: "DINPro",sans-serif; font-size: 14px; font-weight: 800; padding: 10px 20px 9px; white-space: pre;}
+.scene.buy .actions li {display: inline-block; vertical-align: top;}

@@ -1,0 +1,7 @@
+.scene.front ul.grid > li {opacity: 0;}
+
+.scene.front ul li.tweet .card:nth-child(2) {display: none;}
+
+.scene.manifest {background: #180619;}
+
+.scene.buy h2 {font-size: 55px;}

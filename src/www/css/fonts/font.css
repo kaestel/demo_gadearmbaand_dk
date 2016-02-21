@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Flood';
+  src: url('Flood.eot'); /* IE9 Compat Modes */
+  src: url('Flood.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Flood.woff') format('woff'), /* Modern Browsers */
+       url('Flood.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Flood.svg#6593d0aaf3950a1fdf50f35584657fcd') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

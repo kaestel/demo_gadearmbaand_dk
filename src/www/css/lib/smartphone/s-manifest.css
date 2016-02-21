@@ -1,0 +1,9 @@
+.scene.manifest {width: 100%; background: #19051a;}
+
+.scene.manifest h1 {text-align: center; color: #FFFFFF;}
+.scene.manifest .content {margin: 0 auto; padding: 0 15px 60px;}
+.scene.manifest .content h2 {color: #FFFFFF; padding-bottom: 1em; font-size: 35px; font-weight: 400;}
+.scene.manifest .content h3 {color: #FFFFFF; padding-bottom: 1em; font-size: 22px; font-weight: 400;}
+.scene.manifest .content p {color: #FFFFFF; padding-bottom: 1em; font-size: 22px; font-weight: 400;}
+.scene.manifest .content a {text-decoration: underline;}
+

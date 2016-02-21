@@ -1,0 +1,71 @@
+@font-face {
+	font-family: "DINPro";
+	src: url("/css/fonts/DINPro-Black.eot");
+	src: url("/css/fonts/DINPro-Black.eot?#iefix") format("embedded-opentype"),
+		 url("/css/fonts/DINPro-Black.woff") format("woff"),
+		 url("/css/fonts/DINPro-Black.ttf")  format("truetype"),
+		 url("/css/fonts/DINPro-Black.svg#b5903bd095f61bee9157f723f08708b0") format("svg");
+
+	font-style:   normal;
+	font-weight:  900;
+}
+
+@font-face {
+	font-family: "DINPro";
+	src: url("/css/fonts/DINPro-Bold.eot");
+	src: url("/css/fonts/DINPro-Bold.eot?#iefix") format("embedded-opentype"),
+		 url("/css/fonts/DINPro-Bold.woff") format("woff"),
+		 url("/css/fonts/DINPro-Bold.ttf")  format("truetype"),
+		 url("/css/fonts/DINPro-Bold.svg#f72eedb964480472218d30fa54520bd8") format("svg");
+
+	font-style:   normal;
+	font-weight:  800;
+}
+
+@font-face {
+	font-family: "DINPro";
+	src: url("/css/fonts/DINPro-Medium.eot");
+	src: url("/css/fonts/DINPro-Medium.eot?#iefix") format("embedded-opentype"),
+		 url("/css/fonts/DINPro-Medium.woff") format("woff"),
+		 url("/css/fonts/DINPro-Medium.ttf")  format("truetype"),
+		 url("/css/fonts/DINPro-Medium.svg#43a856eecb2199e640a1a5bf1dc4a1e7") format("svg");
+
+	font-style:   normal;
+	font-weight:  600;
+}
+
+@font-face {
+	font-family: "DINPro";
+	src: url("/css/fonts/DINPro-Regular.eot");
+	src: url("/css/fonts/DINPro-Regular.eot?#iefix") format("embedded-opentype"),
+		 url("/css/fonts/DINPro-Regular.woff") format("woff"),
+		 url("/css/fonts/DINPro-Regular.ttf")  format("truetype"),
+		 url("/css/fonts/DINPro-Regular.svg#57984163b7a8df750038d0f2b70383f2") format("svg");
+
+	font-style:   normal;
+	font-weight:  400;
+}
+
+@font-face {
+	font-family: "DINPro";
+	src: url("/css/fonts/DINPro-Light.eot");
+	src: url("/css/fonts/DINPro-Light.eot?#iefix") format("embedded-opentype"),
+		 url("/css/fonts/DINPro-Light.woff") format("woff"),
+		 url("/css/fonts/DINPro-Light.ttf")  format("truetype"),
+		 url("/css/fonts/DINPro-Light.svg#62f75ccd04c776030ca293d074e92944") format("svg");
+
+	font-style:   normal;
+	font-weight:  200;
+}
+
+@font-face {
+	font-family: "Flood";
+	src: url("/css/fonts/Flood.eot");
+	src: url("/css/fonts/Flood.eot?#iefix") format("embedded-opentype"),
+		 url("/css/fonts/Flood.woff") format("woff"),
+		 url("/css/fonts/Flood.ttf")  format("truetype"),
+		 url("/css/fonts/Flood.svg#6593d0aaf3950a1fdf50f35584657fcd") format("svg");
+
+	font-style:   normal;
+	font-weight:  400;
+}

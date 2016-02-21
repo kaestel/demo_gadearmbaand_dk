@@ -1,0 +1,21 @@
+#content .scene.buy {opacity: 0;}
+
+.scene.buy {height: 100%; background: rgba(0,0,0,1); top: 0; left: 0; opacity: 0;
+	background: transparent url(/img/bg_intro.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.scene.buy h1 {color: #ffffff;}
+.scene.buy h2 {color: #ffffff; font-size: 70px; line-height: 1.286em; font-weight: 800; text-align: center;}
+.scene.buy h3 {color: #ffffff; text-align: center; font-size: 45px; position: absolute; bottom: 70px; left: 0; width: 100%;
+	font-family: "Flood", Verdana, Arial, sans-serif;
+}
+.scene.buy .actions {text-align: center; position: absolute; bottom: 40px; left: 0; width: 100%;}
+
+.scene.buy .actions li a {border: 2px solid #6eb951; color: #ffffff; display: block; font-family: "DINPro",sans-serif; font-size: 14px; font-weight: 800; padding: 10px 20px 9px; white-space: pre;}
+.scene.buy .actions li {display: inline-block; vertical-align: top;}
+
+
+.scene.buy svg {position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 200;
+	stroke: #180619; stroke-linecap: round; fill: #ffffff; stroke-width: 0px;
+}

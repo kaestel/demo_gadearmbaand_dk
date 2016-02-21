@@ -1,0 +1,48 @@
+#content .scene.manifest {opacity: 0;}
+
+/*.scene.manifest {width: 100%; overflow: scroll;
+
+}
+*/
+
+.scene.manifest h1 {color: #ffffff;}
+.scene.manifest .content {width: 600px; margin: 0 auto; position: relative; z-index: 3; padding: 150px 0;}
+.scene.manifest .content h2 {color: #ffffff; padding-bottom: 1.1em; font-size: 45px; font-weight: 800; text-align: center;}
+.scene.manifest .content h3 {color: #ffffff; padding-top: 30px; font-size: 28px; font-weight: 400; text-align: center;}
+.scene.manifest .content p {color: #ffffff; padding-bottom: 1.2em; font-size: 22px; font-weight: 400;}
+.scene.manifest .content a {text-decoration: underline;}
+
+/*
+.scene.manifest .vp {position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+	background-attachment: fixed; background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+*/
+
+
+.bg_manifest {position: fixed; top: 0; left: 0; width: 100%; z-index: 8;
+	-webkit-transform: translateZ(-62px);
+/*	background-image: url(/img/bg_manifest.jpg);*/
+	background-color: #ccbbc4;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.bg_manifest .videoplayer {width: 100%; height: 100%;}
+.bg_manifest .videoplayer video {width: 100%; height: 100%;}
+
+/*
+.scene.manifest .videoplayer {position: absolute; z-index: 2; top: -1%; left: -1%; width: 102%; height: 102%;}
+.scene.manifest .videoplayer video {width: 100%; height: 100%;}
+*/
+
+
+.scene.manifest svg {position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 100;
+	stroke: #ffffff; stroke-linecap: round;
+}
