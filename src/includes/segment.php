@@ -1,7 +1,6 @@
 <?php
 
 	session_start();
-	unset($_SESSION["segment"]);
 	// segment parameter sent
 	if(isset($_GET["segment"])) {
 
