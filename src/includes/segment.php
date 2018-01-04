@@ -34,7 +34,7 @@
 		
 	}
 
-//	print $_SESSION["segment"];
+	print $_SESSION["segment"];
 	// debug helper
 	if(isset($_GET["dev"])) {
 		$_SESSION["dev"] = $_GET["dev"];
