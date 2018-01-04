@@ -1,6 +1,7 @@
 <?php
 
 	session_start();
+	unset($_SESSION["segment"]);
 	// segment parameter sent
 	if(isset($_GET["segment"])) {
 
@@ -34,7 +35,7 @@
 		
 	}
 
-	print $_SESSION["segment"];
+//	print $_SESSION["segment"];
 	// debug helper
 	if(isset($_GET["dev"])) {
 		$_SESSION["dev"] = $_GET["dev"];
