@@ -1,3 +1,4 @@
+<?php include_once($_SERVER["LOCAL_PATH"]."/includes/segment.php") ?>
 <!DOCTYPE html>
 <html lang="DA">
 <head>
@@ -21,8 +22,8 @@
 	<link rel="apple-touch-icon" href="/touchicon.png" />
 	<link rel="icon" href="/favicon.png" />
 
-	<link type="text/css" rel="stylesheet" media="all" href="/css/seg_desktop.css" />
-	<script type="text/javascript" src="/js/seg_desktop.js"></script>
+	<link type="text/css" rel="stylesheet" media="all" href="/css/seg_<?= $_SESSION["segment"] ?>.css" />
+	<script type="text/javascript" src="/js/seg_<?= $_SESSION["segment"] ?>.js"></script>
 </head>
 
 <body class="event">
